@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/vladimirmuratov/amocrm.git/react-gh-pages/static/css/main.b0ee3dd4.css",
-    "main.js": "/vladimirmuratov/amocrm.git/react-gh-pages/static/js/main.38ff2d4d.js",
-    "static/js/787.2711dd8a.chunk.js": "/vladimirmuratov/amocrm.git/react-gh-pages/static/js/787.2711dd8a.chunk.js",
-    "static/media/bg.png": "/vladimirmuratov/amocrm.git/react-gh-pages/static/media/bg.40d1ba7ba2a5459f7130.png",
-    "index.html": "/vladimirmuratov/amocrm.git/react-gh-pages/index.html",
-    "main.b0ee3dd4.css.map": "/vladimirmuratov/amocrm.git/react-gh-pages/static/css/main.b0ee3dd4.css.map",
-    "main.38ff2d4d.js.map": "/vladimirmuratov/amocrm.git/react-gh-pages/static/js/main.38ff2d4d.js.map",
-    "787.2711dd8a.chunk.js.map": "/vladimirmuratov/amocrm.git/react-gh-pages/static/js/787.2711dd8a.chunk.js.map"
+    "main.css": "/vladimirmuratov/amocrm/static/css/main.25f5dfa9.css",
+    "main.js": "/vladimirmuratov/amocrm/static/js/main.0085fcec.js",
+    "static/js/787.2711dd8a.chunk.js": "/vladimirmuratov/amocrm/static/js/787.2711dd8a.chunk.js",
+    "static/media/bg.png": "/vladimirmuratov/amocrm/static/media/bg.40d1ba7ba2a5459f7130.png",
+    "index.html": "/vladimirmuratov/amocrm/index.html",
+    "main.25f5dfa9.css.map": "/vladimirmuratov/amocrm/static/css/main.25f5dfa9.css.map",
+    "main.0085fcec.js.map": "/vladimirmuratov/amocrm/static/js/main.0085fcec.js.map",
+    "787.2711dd8a.chunk.js.map": "/vladimirmuratov/amocrm/static/js/787.2711dd8a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0ee3dd4.css",
-    "static/js/main.38ff2d4d.js"
+    "static/css/main.25f5dfa9.css",
+    "static/js/main.0085fcec.js"
   ]
 }
