@@ -1,0 +1,131 @@
+.wrapper {
+    position: relative;
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logoWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logoSubText {
+    font-family: Montserrat, monospace;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 12px;
+}
+
+.logoSubText p {
+    margin-bottom: 0;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.messengers {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.redBallOne {
+    width: 83px;
+    height: 83px;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px #DF7D7D40;
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    left: 38%;
+}
+
+.purpleBallOne {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: -60%;
+    left: 70%;
+
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px #B176D940;
+}
+
+@media (max-width: 870px) {
+    .contact {
+        display: none;
+    }
+
+    .nav {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 620px) {
+    .logoWrapper {
+        display: none;
+    }
+
+    .wrapper {
+        height: 55px;
+    }
+
+    .nav {
+        margin: auto;
+    }
+
+    .purpleBallOne {
+        display: none;
+    }
+
+    .redBallOne {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav {
+        line-height: 14px;
+    }
+
+    .nav span:last-child {
+        display: none;
+    }
+}
+
+@media (max-width: 390px) {
+    .nav {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 350px) {
+    .nav {
+        gap: 10px;
+    }
+}

@@ -1,0 +1,219 @@
+.wrapper {
+    position: relative;
+    flex: 1;
+    padding: 90px 0 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blockLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleLeftBlock {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.titleRightBlock {
+    display: block;
+}
+
+.titleRightBlockMobile {
+    display: none;
+}
+
+.divider {
+    display: none;
+    margin-top: -8px;
+    width: 10px;
+    height: 1px;
+    background: linear-gradient(to right, #FCB045, #FD1D1D);
+    border-width: 1px;
+}
+
+.titleLeft {
+    margin: -10px 0 0;
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    color: var(--white);
+}
+
+.titleColorLeft {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subTextLeft {
+    margin-top: 30px;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: var(--white);
+}
+
+.blockRight {
+    text-align: right;
+}
+
+.titleRight {
+    margin: 0 0 40px;
+    color: var(--white);
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: right;
+}
+
+.titleColorRight {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-align: right;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #FD1D1D 27.14%, #FCB045 121.36%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subBlockGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    text-align: right;
+    padding-bottom: 60px;
+}
+
+.subBlock {
+    color: var(--white);
+}
+
+.subBlock h5 {
+    margin: 0 0 6px;
+    text-transform: uppercase;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+}
+
+.subBlock span {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.btn {
+    background: #4077F3;
+    color: var(--white);
+    padding: 20px 35px;
+    border: none;
+    cursor: pointer;
+}
+
+.redBallTwo {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.48) 0%, rgba(212, 93, 93, 0.248) 59.67%, rgba(167, 49, 49, 0.264) 78.59%, rgba(130, 25, 25, 0.232) 100%);
+    box-shadow: 3px 6px 27px -10px #DF7D7D40;
+}
+
+@media (max-width: 1175px) {
+    .wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 620px) {
+    .wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 0;
+        background-image: url("/public/images/bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .blockLeft {
+        margin-bottom: 45px;
+    }
+
+    .subTextLeft {
+        margin-top: 15px;
+    }
+
+    .blockRight h5 {
+        text-align: left;
+    }
+
+    .subBlock span {
+        display: none;
+    }
+
+    .titleLeft {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .titleColorLeft {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .titleRightBlock {
+        display: none;
+    }
+
+    .titleRightBlockMobile {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .titleRightBlockMobile h5 {
+        font-family: Montserrat, sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        text-align: left;
+    }
+
+    .divider {
+        display: block;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .subBlockGrid {
+        gap: 5px;
+    }
+
+    .redBallTwo {
+        display: none;
+    }
+}
