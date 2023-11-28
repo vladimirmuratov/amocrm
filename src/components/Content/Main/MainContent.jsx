@@ -27,6 +27,7 @@ export const MainContent = () => {
                             <span>с показателями<br/>вашего бизнеса</span>
                         </div>
                         <h5 className={style.titleRightBlock}>Dashboard</h5>
+                        <span>с показателями<br/>вашего бизнеса</span>
                     </div>
                     <div className={style.subBlock}>
                         <div className={style.titleRightBlockMobile}>
